@@ -5,7 +5,7 @@ The project aims to demonstrate the potential of AI in mental health diagnostics
 
 - **Data Preprocessing**: Includes handling missing values, feature engineering, and normalization.
 - **Class Imbalance Handling**: Utilizes SMOTE (Synthetic Minority Oversampling Technique) to balance the dataset.
-- **Predictive Modeling**: Implements logistic regression for binary classification.
+- **Predictive Modeling**: Compares various ML algorithms in their role to predict disease depression.
 - **Performance Evaluation**: Provides key metrics such as accuracy, precision, recall, and F1-score to evaluate the model.
 
 ## Getting Started
@@ -55,8 +55,17 @@ To run this project, ensure you have the following installed:
 
 ## Results
 
-- **Model Accuracy**: 85%
-- **F1-Score**: 85% (balanced for both classes)
+### Initial Model Results (Logistic Regression)
+- **Accuracy**: 83%
+- **F1-Score**: 82%
+- **Precision**: 83%
+- **Recall**: 83%
+
+### After Handling Class Imbalance (SMOTE) - Logistic Regression 
+- **Accuracy**: 85%
+- **F1-Score**: 85%
+- **Precision**: 85%
+- **Recall**: 85%
 
 ## Technologies Used
 
