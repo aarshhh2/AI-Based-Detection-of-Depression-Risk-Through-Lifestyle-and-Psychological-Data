@@ -56,15 +56,15 @@ To run this project, ensure you have the following installed:
 ## Results
 
 ### Initial Model Results (Logistic Regression)
-- **Accuracy**: 83%
-- **F1-Score**: 82%
-- **Precision**: 83%
-- **Recall**: 83%
+- **Accuracy**: 91%
+- **F1-Score**: 97% (0), 67% (1)
+- **Precision**: 93% (0), 83% (1)
+- **Recall**: 97% (0), 67% (1)
 
 ### After Handling Class Imbalance (SMOTE) - Logistic Regression 
 - **Accuracy**: 85%
-- **F1-Score**: 85%
-- **Precision**: 85%
+- **F1-Score**: 86% (0), 84% (1)
+- **Precision**:  86% (0), 84% (1)
 - **Recall**: 85%
 
 ## Technologies Used
